@@ -99,8 +99,11 @@ header a{
     .card img {
         max-width: 100%;
         
-        
     }
+    a:hover{
+        text-decoration: underline;
+    }
+   
     
     @media screen and (max-width: 768px) {
         .card {
