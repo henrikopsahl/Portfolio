@@ -40,9 +40,6 @@ header div {
 nav {
     position: absolute;
     bottom: 0;
-    left: 50%;
-    
-    
 }
 
 nav ul {
@@ -66,12 +63,7 @@ header a{
     
     }
 
-    @media screen and (max-width: 902px){
-        header a{
-            padding: 5px 10px;
-            font-size: 0.8rem;
-        }
-    }
+   
 
     @media screen and (max-width: 768px ) {
         header {
@@ -83,9 +75,13 @@ header a{
         }
         header img{
             order: 2;
-            margin-bottom: 50%;
+            margin-bottom: 20%;
         }
-        
+        header a{
+            padding: 5px 10px;
+            font-size: 0.8rem;
+        }
+       
     
     }
     
