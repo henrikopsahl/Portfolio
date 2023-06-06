@@ -63,6 +63,18 @@ header a{
     
     }
 
+    main a{
+        margin: auto;
+        left:50%;
+        right: 50%;
+     text-decoration: none;
+        color: #f5edf0;
+        background-color: #2a4494;
+        border-radius: 90px;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+
     main h2{
         display: flex;
         justify-content: center;
@@ -86,6 +98,7 @@ header a{
     
     .card img {
         max-width: 100%;
+        
         
     }
     
