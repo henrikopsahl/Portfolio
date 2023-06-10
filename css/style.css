@@ -2,7 +2,7 @@ html {
   height: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  background-color: #f5edf0;
+  background-color: rgb(245, 237, 240);
 }
 
 html:focus-within {
@@ -30,19 +30,20 @@ header {
   height: 600px;
 }
 
-h1, h2, h3, a, button{
-    font-family: 'EB Garamond', serif;
-    font-weight: bold;
+h1,
+h2,
+h3,
+a,
+button {
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  color: rgb(35, 44, 51);
 }
-p{
-    font-family: 'Josefin Sans', sans-serif;
-    
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(35, 44, 51);
 }
-header img {
-  max-width: 100%;
-  width: 300px;
-  margin-left: 40px;
-}
+
 
 header div {
   flex: 2;
@@ -67,8 +68,8 @@ nav ul {
 
 header a {
   text-decoration: none;
-  color: #f5edf0;
-  background-color: #2a4494;
+  color:rgb(245, 237, 240);
+  background-color: rgb(42, 68, 148);
   border-radius: 90px;
   padding: 10px 20px;
   white-space: nowrap;
@@ -80,14 +81,14 @@ main a {
   left: 50%;
   right: 50%;
   text-decoration: none;
-  color: #f5edf0;
+  color: rgb(245, 237, 240);
   background-color: #2a4494;
   border-radius: 90px;
   padding: 5px 10px;
   font-size: 0.8rem;
 }
 
- h2 {
+h2 {
   display: flex;
   justify-content: center;
 }
@@ -100,7 +101,7 @@ main a {
 }
 
 .card {
-  background-color: #f5edf0;
+  background-color: rgb(245, 237, 240);
   border-radius: 10px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
   width: 30%;
@@ -115,28 +116,25 @@ a:hover {
   text-decoration: underline;
 }
 
-footer{
-    background: linear-gradient(
-        90deg,
-        rgba(14, 164, 241, 0.8) 20.14%,
-        rgba(41, 164, 226, 0.313472) 51.53%,
-        rgba(190, 3, 255, 0.131561) 67.23%,
-        rgba(214, 0, 255, 0.0510915) 86.82%,
-        rgba(216, 32, 232, 0) 99.26%
-      );
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(14, 164, 241, 0.8) 20.14%,
+    rgba(41, 164, 226, 0.313472) 51.53%,
+    rgba(190, 3, 255, 0.131561) 67.23%,
+    rgba(214, 0, 255, 0.0510915) 86.82%,
+    rgba(216, 32, 232, 0) 99.26%
+  );
 }
-footer p, footer a{
-    display: flex;
-    justify-content: center;
+footer p,
+footer a {
+  display: flex;
+  justify-content: center;
 }
-footer a{
-    text-decoration: none;
-    color: #000;
+footer a {
+  text-decoration: none;
+  color: rgb(35, 44, 51);
 }
-
-
-
-
 
 @media screen and (max-width: 768px) {
   header {
@@ -156,5 +154,11 @@ footer a{
   .card {
     width: 90%;
   }
- 
+}
+
+@media screen and (max-width: 369px) {
+  header a{
+    padding: 4px 8px;
+    font-size: 0.6rem;
+  }
 }
